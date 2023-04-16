@@ -728,8 +728,9 @@ sub GenerateSequenceFiles(){
 	for (my $i=0; $i<@homologs; $i++) {
 		my @genes = split(/\s+/, $homologs[$i]);
 		chomp @genes;
-	
-		my $file = join("-", @genes);
+
+		my $id = $i + 1; 
+		my $file = "ClusterID".$id;
 		my $aa_seq = "";
 		my $nuc_seq = "";
 		my $flag = 1;

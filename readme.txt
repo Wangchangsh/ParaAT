@@ -38,3 +38,5 @@ Email:	zhangzhang@big.ac.cn
 Tel.:	+86(10)8409-7261
 Fax:	+86(10)8409-7845
 Web:	http://cbb.big.ac.cn
+
+This is a modified version! I modified the naming to fit the linux naming restrictions. 20230416
